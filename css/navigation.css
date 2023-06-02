@@ -1,0 +1,4 @@
+.navigation_list {
+    display: grid;
+    grid-template-columns: 200 px 200px;
+}

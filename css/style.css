@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body { 
+    max-width: 1000px;
+    padding: 20px;
+    margin: 50px auto 100px;
+    background-color: rgb(196, 213, 218);
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat;
+    grid-gap: 20px 
+}
+.container__item {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__item_background {
+    background: teal;
+    border: 3px solid rgb(241, 241, 241);
+    border-radius: 30%;
+    background: center url("../images/bike_icon.jpg ")
+
+}
