@@ -2,3 +2,23 @@
     display: grid;
     grid-template-columns: 200 px 200px;
 }
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat;
+    grid-gap: 20px 
+}
+.navigation__item {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation__item_background {
+    background: teal;
+    border: 3px solid rgb(241, 241, 241);
+    border-radius: 30%;
+    background: center url("../images/bike_icon.jpg ")
+
+}
