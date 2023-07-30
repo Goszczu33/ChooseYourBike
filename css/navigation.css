@@ -17,10 +17,13 @@
 }
 .navigation__itemsBikes {
     color: black;
+   
     transition: 0.5s;
     text-decoration: none;
 }
 .navigation__itemsBikes:hover {
         font-size: larger;
         transform: scale(1.5);
+        background-color: rgb(207, 202, 202);
+        border-radius: 30%;
 }
