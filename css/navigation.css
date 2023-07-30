@@ -8,18 +8,19 @@
     grid-template-columns: repeat;
     grid-gap: 20px 
 }
-.navigation__item {
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-
+.navigation__items {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;   
+    
 }
-
-.navigation__item_background {
-    background: teal;
-    border: 3px solid rgb(241, 241, 241);
-    border-radius: 30%;
-    background: center url("../images/treking.jpg ")
-
+.navigation__itemsBikes {
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.navigation__itemsBikes:hover {
+        font-size: larger;
+        transform: scale(1.5);
 }
