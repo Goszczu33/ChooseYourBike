@@ -16,8 +16,7 @@
     
 }
 .navigation__itemsBikes {
-    color: black;
-   
+    color: black;  
     transition: 0.5s;
     text-decoration: none;
 }
